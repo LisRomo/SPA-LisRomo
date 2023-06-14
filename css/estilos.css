@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Romanesco&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/********************* Header *********************/
+#cabecera {
+    background-color: #A3A656;
+    overflow: auto;
+}
+
+/* Menu */
+.menu {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav {
+    height: 100%;
+}
+
+header nav ul {
+    float: left;
+    padding: 0px 70px;
+    height: 100%;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li:hover {
+    color: #FFFF00;
+}
+
+/* Login */
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+header div {
+    float: right;
+}
+
+.partes-login {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 5px
+}
+
+#usuario {
+    width: 40px;
+}
+
+#bandera {
+    width: 35px;
+}
+
+/********************* Body *********************/
+/* Banner */
+#baner {
+    position: relative;
+}
+
+#img-spa {
+    width: 100%;
+    display: block;
+}
+
+#titulo {
+    font-family: 'Romanesco', sans-serif;
+    font-weight: 400;
+    font-size: 96px;
+}
+
+#titulo {
+    position: absolute;
+    top: 30%;
+    left: 150px;
+    text-align: center;
+}
+
+.slogan {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+#slogan1 {
+    position: absolute;
+    top: 335px;
+    left: 150px;
+    text-align: center;
+}
+
+#slogan2 {
+    position: absolute;
+    top: 375px;
+    left: 150px;
+    text-align: center;
+}
+
+/* Menu codigos */
+#menu-codigos {
+    background-color: #F2F6F6;
+    height: 100px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-cod {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.menu-cod-ingresar,
+.menu-cod {
+    display: inline-block;
+    margin: 10px;
+}
+
+.menu-cod-ingresar::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9E9A9A;
+    text-transform: uppercase;
+}
+
+.menu-cod-ingresar {
+    border-radius: 15px 15px 15px 15px;
+    height: 55px;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    outline: none;
+}
+
+/* Card masajes*/
+#masajes {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.card-masaje {
+    width: 330px;
+    display: inline-block;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0px 67px;
+}
+
+.titluo-masaje {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    background-color: #A3A656;
+    border-radius: 15px 15px 0px 0px;
+    padding: 15px 0px;
+    color: #FFFFFF;
+}
+
+.img-masaje {
+    width: 330px;
+}
+
+.card-masaje img {
+    width: 100%;
+    height: auto;
+}
+
+.desc-masajes {
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.precio-reserva,
+.boton-reserva {
+    display: inline-block;
+}
+
+.precio-reserva {
+    margin-right: 80px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.boton-reserva {
+    color: #FFFFFF;
+    border-radius: 35px;
+    background-color: #A3A656;
+    padding: 10px 30px;
+}
+
+.boton-reserva:hover {
+    background-color: #384001;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Card socios */
+#socios {
+    width: 100%;
+    height: 770px;
+    text-align: center;
+    background-color: #F2F6F6;
+}
+
+#titulo-socios {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 40px 0px;
+}
+
+.card-socio {
+    width: 330px;
+    height: 500px;
+    display: inline-block;
+    margin: 0px 67px;
+    text-align: center;
+}
+
+#card1 {
+    position: relative;
+    top: 10px;
+}
+
+#card2 {
+    position: relative;
+    top: -19px;
+}
+
+#card3 {
+    position: relative;
+    top: -48px;
+}
+
+.titulo-socio {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.boton-condiciones {
+    color: #FFFFFF;
+    border-radius: 35px;
+    background-color: #A3A656;
+    padding: 20px 30px;
+    margin: 20px;
+}
+
+.boton-condiciones:hover {
+    background-color: #384001;
+}
+
+.img-socio {
+    border: 10px solid #384001;
+    border-radius: 50%;
+    width: 233px;
+    height: 233px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.img-socio img {
+    width: 110px;
+    height: 110px;
+}
+
+.beneficios {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    vertical-align: top;
+}
+
+.beneficios li {
+    padding: 5px 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+}
+
+/********************* Footer *********************/
+#pie {
+    background-color: #384001;
+    overflow: auto;
+}
+
+/* Menu pie */
+.menu-pie {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    height: 97px;
+    align-items: center;
+    justify-content: center;
+    color: #A3A656;
+}
+
+footer nav {
+    height: 100%;
+}
+
+footer nav ul {
+    float: left;
+    padding: 0px 70px;
+    height: 100%;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+footer nav ul li:hover {
+    color: #FFFF00;
+}
+
+/* redes sociales */
+#redes {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 97px;
+}
+
+.partes-pie {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 15px;
+    text-transform: uppercase;
+    color: #A3A656;
+}
+
+.img-red-social {
+    height: 35px;
+}
+
+footer img {
+    width: auto;
+    height: 100%;
+}
